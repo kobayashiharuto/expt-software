@@ -6,6 +6,6 @@
 
 ## 各ファイル
 * AudioData.java: 音声フォーマット等の定数管理用
-* AudioEcho.java: デバイスのマイクに入力するとデバイスのスピーカーから出力される
+* AudioEcho.java: デバイスのマイクに入力するとデバイスのスピーカーから出力される（ローカルテスト用）
 * AudioStreamer.java: デバイスのマイクに入力すると AudioListener に対して UDP で音声データが送る
 * AudioListener.java: AudioStreamerから送られてきた音声をスピーカーから再生する
